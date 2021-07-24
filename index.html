@@ -15,10 +15,37 @@
             });
         });
         </script>
+        <style>
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                background: #0F2027;  /* fallback for old browsers */
+                background: -webkit-linear-gradient(to bottom, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+                background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            main {
+                text-align: center;
+                background-color: rgba(0, 0, 0, 0.26);
+                max-width: 400px;
+                padding: 20px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                min-height: 200px;
+                border-radius: 0px;
+                box-shadow: inset 10px 10px rgba(0, 0, 0, 0.212), inset -10px -10px rgba(0, 0, 0, 0.404), inset 10px 10px 5px rgba(0, 0, 0, 0.404);
+                color: white;
+            }
+        </style>
     </head>
 </head>
 <body>
     <main>
+        <p>You can subscribe or unsubscribe from DXP alerts by clicking on the button below, if you dont see the button you need to enable web notificaitons.</p>
         <div class='onesignal-customlink-container'></div>
     </main>
     </script>
